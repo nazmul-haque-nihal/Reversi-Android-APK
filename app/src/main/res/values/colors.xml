@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#006400</color>
+    <color name="colorPrimaryDark">#004400</color>
+    <color name="colorAccent">#0000FF</color>
+    
+    <!-- Board Colors -->
+    <color name="colorBoardDark">#006400</color>
+    <color name="colorBoardLight">#008000</color>
+    <color name="colorGrid">#000000</color>
+    
+    <!-- Piece Colors -->
+    <color name="colorPieceBlack">#000000</color>
+    <color name="colorPieceWhite">#FFFFFF</color>
+    
+    <!-- UI Colors -->
+    <color name="colorBackground">#E0E0E0</color>
+    <color name="colorSurface">#F5F5F5</color>
+    <color name="colorOnSurface">#333333</color>
+    
+    <!-- Highlight Colors -->
+    <color name="colorHighlight">#FFFF00</color>
+    <color name="colorLastMove">#FF0000</color>
+    
+    <!-- Button Colors -->
+    <color name="colorButtonBackground">#D0D0D0</color>
+    <color name="colorButtonText">#000000</color>
+</resources>

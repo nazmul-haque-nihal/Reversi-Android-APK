@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Placeholder launcher icon for mipmap directories -->
+    <!-- Note: Replace these with actual PNG files for production -->
+    <!-- For now, we'll use the vector drawable for API 26+ -->
+    
+    <!-- Icon for mdpi (48x48) -->
+    <mipmap name="ic_launcher">@drawable/ic_launcher_foreground</mipmap>
+    <mipmap name="ic_launcher_round">@drawable/ic_launcher_foreground</mipmap>
+</resources>

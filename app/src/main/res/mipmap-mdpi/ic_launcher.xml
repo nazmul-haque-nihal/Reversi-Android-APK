@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Board background -->
+    <path
+        android:fillColor="#006400"
+        android:pathData="M4,4 L44,4 L44,44 L4,44 Z" />
+    
+    <!-- Grid lines -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="0.5"
+        android:pathData="M9,4 L9,44 M14,4 L14,44 M19,4 L19,44 M24,4 L24,44 M29,4 L29,44 M34,4 L34,44 M39,4 L39,44" />
+    
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="0.5"
+        android:pathData="M4,9 L44,9 M4,14 L44,14 M4,19 L44,19 M4,24 L44,24 M4,29 L44,29 M4,34 L44,34 M4,39 L44,39" />
+    
+    <!-- Black piece -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M21,21 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    
+    <!-- White piece -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,27 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    
+    <!-- Black piece -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M21,27 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    
+    <!-- White piece -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,21 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    
+</vector>
