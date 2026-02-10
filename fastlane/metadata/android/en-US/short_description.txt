@@ -1,0 +1,1 @@
+A polished, feature-rich Reversi (Othello) game for Android with smooth OpenGL ES rendering and smart AI opponents.
