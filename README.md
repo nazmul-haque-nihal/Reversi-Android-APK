@@ -410,7 +410,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### Contact
 
-- 📧 **Email**: nazmul-haque-nihal@example.com (update with your email)
+- 📧 **Email**: nazmulhaquegreen@gmail.com
 - 🌐 **GitHub**: [nazmul-haque-nihal](https://github.com/nazmul-haque-nihal)
 - 📱 **Repository**: [Reversi-Android-APK](https://github.com/nazmul-haque-nihal/Reversi-Android-APK)
 
