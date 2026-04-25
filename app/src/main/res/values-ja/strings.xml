@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">リバーシ プロ</string>
+
+    <!-- Score Display -->
+    <string name="black_score_default">黒: 2</string>
+    <string name="white_score_default">白: 2</string>
+    <string name="black_score_format">黒: %d</string>
+    <string name="white_score_format">白: %d</string>
+
+    <!-- Turn Indicator -->
+    <string name="turn_black">黒の番</string>
+    <string name="turn_white">白の番</string>
+    <string name="turn_unknown">-</string>
+
+    <!-- Button Labels -->
+    <string name="btn_undo">取消</string>
+    <string name="btn_redo">再実行</string>
+    <string name="btn_pass">パス</string>
+    <string name="btn_new_game">新規ゲーム</string>
+    <string name="btn_settings">設定</string>
+    <string name="btn_rules">ルール</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_start">開始</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_close">閉じる</string>
+
+    <!-- Game Setup Dialog -->
+    <string name="dialog_game_setup_title">新規ゲーム</string>
+    <string name="dialog_select_mode">ゲームモードを選択</string>
+    <string name="mode_pvp">プレイヤーvsプレイヤー</string>
+    <string name="mode_pvai">プレイヤーvs_cpu</string>
+    <string name="dialog_select_difficulty">CPUの強さを選択</string>
+    <string name="difficulty_easy">簡単</string>
+    <string name="difficulty_medium">普通</string>
+    <string name="difficulty_hard">難しい</string>
+    <string name="difficulty_expert">プロフェッショナル</string>
+
+    <!-- Settings Dialog -->
+    <string name="dialog_settings_title">設定</string>
+    <string name="dialog_select_language">言語を選択</string>
+    <string name="language_english">英語</string>
+    <string name="language_japanese">日本語</string>
+
+    <!-- Rules Dialog -->
+    <string name="dialog_rules_title">ゲームのルール</string>
+    <string name="rules_content">リバーシの遊び方:
+
+1. 目的
+   ゲーム終了時に自分の色の石が多い方が勝ちです。
+
+2. ゲームの始め方
+   - 黒が必ず先手です
+   - プレイヤーは交互に1手ずつ石を置きます
+   - ゲーム開始時は盤面の中心に黒2個、白2個が置かれています
+
+3. 石の置き方
+   自分の石と既に盤面にある自分の石で、相手の石を
+   挟むように置きます。
+   
+   「挟む」とは、相手の石が直線（縦・横・斜め）
+   で自分の2つの石の間にいる状態です。
+
+4. 石をひっくり返す
+   挟まれた相手の石は全て自分の色に変わります。
+
+5. 合法手
+   合法手（石を挟める位置）にのみ石を置けます。
+   合法手がない場合はパスしなければなりません。
+
+6. ゲームの終了
+   ゲームは以下の条件で終了します:
+   - 盤面がすべて埋まった場合
+   - 両プレイヤーが合法手がない場合
+   
+   色の多いプレイヤーが勝ちです！
+
+豆知識:
+- 角の石は非常に価値があります - ひっくり返すことができません
+- 角の隣接位置（X-square）は序盤では避けるべきです
+   将来角を取られる原因になります
+- 盤面の辺を意識してプレーを心がけましょう</string>
+
+    <!-- Game Over Dialog -->
+    <string name="dialog_game_over_title">ゲーム終了</string>
+    <string name="winner_black">黒の勝ち!\n黒: %d - 白: %d</string>
+    <string name="winner_white">白の勝ち!\n白: %d - 黒: %d</string>
+    <string name="game_draw">引き分け!\n両方: %d</string>
+    <string name="game_over">ゲーム終了</string>
+</resources>

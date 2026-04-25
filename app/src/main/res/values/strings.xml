@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Reversi Pro</string>
+
+    <!-- Score Display -->
+    <string name="black_score_default">Black: 2</string>
+    <string name="white_score_default">White: 2</string>
+    <string name="black_score_format">Black: %d</string>
+    <string name="white_score_format">White: %d</string>
+
+    <!-- Turn Indicator -->
+    <string name="turn_black">Black\'s Turn</string>
+    <string name="turn_white">White\'s Turn</string>
+    <string name="turn_unknown">-</string>
+
+    <!-- Button Labels -->
+    <string name="btn_undo">Undo</string>
+    <string name="btn_redo">Redo</string>
+    <string name="btn_pass">Pass</string>
+    <string name="btn_new_game">New Game</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_rules">Rules</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Game Setup Dialog -->
+    <string name="dialog_game_setup_title">New Game</string>
+    <string name="dialog_select_mode">Select Game Mode</string>
+    <string name="mode_pvp">Player vs Player</string>
+    <string name="mode_pvai">Player vs AI</string>
+    <string name="dialog_select_difficulty">Select AI Difficulty</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_expert">Expert</string>
+
+    <!-- Settings Dialog -->
+    <string name="dialog_settings_title">Settings</string>
+    <string name="dialog_select_language">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">Japanese</string>
+
+    <!-- Rules Dialog -->
+    <string name="dialog_rules_title">Game Rules</string>
+    <string name="rules_content">HOW TO PLAY REVERSI:
+
+1. OBJECTIVE
+   Have the majority of pieces showing your color when the game ends.
+
+2. GETTING STARTED
+   - Black always moves first
+   - Players take turns placing one piece per turn
+   - The game starts with 2 black and 2 white pieces in the center
+
+3. MAKING A MOVE
+   Place your piece so that it \"sandwiches\" one or more opponent pieces
+   between your new piece and another piece of your color.
+   
+   A \"sandwich\" occurs when your pieces bracket opponent pieces in a
+   straight line (horizontal, vertical, or diagonal).
+
+4. FLIPPING PIECES
+   All sandwiched opponent pieces are flipped to your color.
+
+5. VALID MOVES
+   You must make a valid sandwich. If you cannot make a valid move,
+   you must pass your turn.
+
+6. GAME END
+   The game ends when:
+   - The board is completely full
+   - Neither player can make a valid move
+   
+   The player with the most pieces of their color wins!
+
+TIPS:
+- Corner pieces are very valuable - they cannot be flipped
+- Avoid positions next to corners (X-squares) early in the game
+- Think ahead and control the edges of the board</string>
+
+    <!-- Game Over Dialog -->
+    <string name="dialog_game_over_title">Game Over</string>
+    <string name="winner_black">Black Wins!\nBlack: %d - White: %d</string>
+    <string name="winner_white">White Wins!\nWhite: %d - Black: %d</string>
+    <string name="game_draw">It\'s a Draw!\nBoth: %d</string>
+    <string name="game_over">Game Over</string>
+</resources>
